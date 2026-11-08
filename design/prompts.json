@@ -1,0 +1,36 @@
+{
+  "generator": "built-in image_gen",
+  "date": "2026-11-02",
+  "dark": {
+    "output": "previews/dark-final.png",
+    "prompt": "Use case: precise-object-edit. Image 1 is the edit target: the final dark-mode Isaac Lab training workbench screenshot. Image 2 is the original approved cube logo shape reference. Make ONE strictly localized color edit to Image 1: recolor only the small cube logo at the top-left next to \"训练工作台\" into the app's graphite-and-mint dark-theme palette. Preserve the original recognizable cube geometry, outer hexagonal 3D frame, inner cube, proportions, position, and size. Outer frame should use tasteful mint-green tones matching the \"+ 添加实验\" button (#88DDB8 family), shaded surfaces graphite/dark slate, and central cube pale mint/off-white with graphite shading for depth. Remove all blue from this logo only. Keep it sharp, elegantly dimensional, and legible against the dark header; no glow, no white background square, no shield or cross redesign. Everything outside this logo must remain unchanged: all layout, header title and project selector, theme switch, sidebar icons and text, mint primary buttons, blue running statuses, amber waiting statuses, green completion statuses, all table contents, dependencies, inspector, bottom logs, and \"最终预览 · 深色\" caption. Preserve the 16:10 aspect ratio and Chinese typography. Do NOT recolor blue progress bars or running-status icons. This request edits only the logo of the dark screenshot. No new features, no extra text, no watermark.",
+    "references": [
+      {
+        "role": "edit_target",
+        "source": "C:/Users/GuoZhexi/.codex/generated_images/01a19741-1911-7d63-b8d4-a061c3abba8f/exec-d17eacc6-8562-496c-b462-756286115190.png"
+      },
+      {
+        "role": "logo_shape_reference",
+        "archived": "references/logo-original-blue.png"
+      }
+    ]
+  },
+  "light": {
+    "output": "previews/light-final.png",
+    "prompt": "Use case: precise-object-edit, final UI mockup. Create the final polished preview of an Isaac Lab training workbench. Image 1 is the existing DARK screenshot; Image 2 is the existing LIGHT screenshot; Image 3 is the user's approved original blue-and-white 3D cube logo. CRITICAL: replace the current top-left app mark with the exact recognizable blue-and-white cube from Image 3 in BOTH theme variants. Keep its blue gradient, white central cube, perspective, and proportions. Do not redesign it into a shield, flat squares, cross, generic cube wireframe, or green icon. Treat the white surroundings of the logo reference as background; integrate the blue cube cleanly into the app header, about 40px tall, without a conspicuous white square on dark mode. Preserve all other established design decisions. Full front-on 16:10 desktop app screenshot, crisp Chinese sans-serif type, same spacious geometry and buildable components. Preserve header, sidebar, summary cards, queue table, right inspector, bottom log panel, all data values and labels. Header has \"训练工作台\", project \"AME_Locomotion\", sun/moon theme toggle \"浅色\" and \"深色\". Sidebar \"工作流\", \"实验记录\", \"本机设置\". Main title \"实验工作流\", subtitle \"Go2 奖励消融实验\", buttons \"暂停队列\", \"+ 添加实验\". Summary running 1 / waiting 2 / completed 1 / GPU 0. Queue rows Baseline completed, No gait cutoff running 1200/2000 at 60%, Z penalty 0.25 waiting, Seed 43 waiting. Inspector fields 2048, 2000, feet_gait 0.20, lin_vel_z -1.00, 截止代数 无限制. Keep \"TensorBoard ↗\" and short realistic log lines, date 2026-11-02 if dates shown. Use actual checkpoint filename model_1200.pt, no unsupported dashboard features or charts. Preserve semantic status colors: running blue, completed green, waiting amber. Tiny caption outside app at top-left says \"最终预览 · 浅色\". No huge presentation banner, no decorative scenery, no browser chrome, no watermark. This is a visual planning mockup, not a working application.\nOUTPUT LIGHT MODE ONLY. Edit Image 2. Keep the glacier-white/azure-blue palette: icy pale blue canvas, pure white cards, deep navy text, azure blue primary action button, blue active navigation/icons/theme switch and thin cool-blue borders. Keep current light layout pixel-aligned. Theme toggle 浅色 is selected. Preserve D Glacier Light's airy clarity and refined soft shadows. No mint/teal brand accents in light mode, except semantic green success.",
+    "references": [
+      {
+        "role": "dark_reference",
+        "source": "C:/Users/GuoZhexi/.codex/generated_images/01a19741-1911-7d63-b8d4-a061c3abba8f/exec-c180436d-7e56-4b71-b456-61541d3a3e4e.png"
+      },
+      {
+        "role": "light_edit_target",
+        "source": "C:/Users/GuoZhexi/.codex/generated_images/01a19741-1911-7d63-b8d4-a061c3abba8f/exec-9fa9020e-be6a-4e17-8c2f-89f06214f906.png"
+      },
+      {
+        "role": "logo_reference",
+        "archived": "references/logo-original-blue.png"
+      }
+    ]
+  }
+}

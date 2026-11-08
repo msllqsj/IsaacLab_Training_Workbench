@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-02",
+  "timezone": "Asia/Shanghai",
+  "status": "user-approved final themes",
+  "target_root": "C:/Users/GuoZhexi/Documents/MyFiles/code/Locomotion/IsaacLab_Training_Workbench",
+  "default_theme": "dark",
+  "theme_switch": "manual, persistent in localStorage",
+  "training_source_changes": false,
+  "files": [
+    {
+      "file": "design/previews/dark-final.png",
+      "source": "C:\\Users\\GuoZhexi\\.codex\\generated_images\\01a19741-1911-7d63-b8d4-a061c3abba8f\\exec-8f5bdea8-ccac-420a-9b02-000331eed4fb.png",
+      "origin": "built-in image_gen",
+      "bytes": 1572078,
+      "width": 1586,
+      "height": 992,
+      "sha256": "85e91050d57a1b4164e9b0ec762532b169d83edcbf9d14f12a51509064d308a7"
+    },
+    {
+      "file": "design/previews/light-final.png",
+      "source": "C:\\Users\\GuoZhexi\\.codex\\generated_images\\01a19741-1911-7d63-b8d4-a061c3abba8f\\exec-b8c57ea6-2720-4524-941e-c8bb53053a5d.png",
+      "origin": "built-in image_gen",
+      "bytes": 1369044,
+      "width": 1584,
+      "height": 993,
+      "sha256": "6daec338dfd1e7b812e6dbe61fde03ec19ddaa3f5acab735459f503c5ae50412"
+    },
+    {
+      "file": "design/references/logo-original-blue.png",
+      "source": "C:\\Users\\GuoZhexi\\AppData\\Local\\Temp\\codex-clipboard-d9ed2444-6553-431d-8a95-eb75a9e90b7a.png",
+      "origin": "user-provided reference",
+      "bytes": 11647,
+      "width": 106,
+      "height": 94,
+      "sha256": "df64a75536aafa1cee5e730f7d03348762dcac0633e82a592f2697d68d42c90e"
+    },
+    {
+      "file": "README.md",
+      "bytes": 1371,
+      "sha256": "db042ba355e9451d73d304bf45bde5388b64859a44f4f3d2ba71d939c79301ad"
+    },
+    {
+      "file": "IMPLEMENTATION_PLAN.md",
+      "bytes": 8973,
+      "sha256": "d18bf7f14d295ddc4b4a19cbb2ac8a9e6d81b9dcc3cb098776264d188c647a68"
+    },
+    {
+      "file": "design/THEME_SPEC.md",
+      "bytes": 3129,
+      "sha256": "d25a51cf769cf891537687dc6eae8f8354fc8db74be022c96f75f02f9856dd4c"
+    },
+    {
+      "file": "design/prompts.json",
+      "bytes": 5006,
+      "sha256": "2eb257bd8f8a4cb006184155e01212f40cb0c3f0b93b60d688568693244d668a"
+    }
+  ]
+}
